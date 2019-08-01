@@ -1,1 +1,4 @@
-# autonomousDriving
+# Autonomous Driving
+
+Every car company on the world is working on the idea of autonomous driving. I created two different parts of it. One big part for autonomous driving is to know where the vehicle is respectively to its environment. The project `tracking/` does exactly that. It is a program, what can determine out of different inputs, lasers from the outside or odometry informations by the car, where the *real* position of the car might be, by using a KALMAN filter.
+The other project `pathPlanning/` is a planning program. It uses odometry informations to localize(it can also use the others projects positioning software instead) and drives through given points at a given time. The system finds a path in between these points by using a bezier path.
