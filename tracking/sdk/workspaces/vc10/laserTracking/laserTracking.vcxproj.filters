@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\main">
+      <UniqueIdentifier>{819049a8-437d-4103-ad80-62a02896f7d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\alglib">
+      <UniqueIdentifier>{8d57cd83-72fe-4f73-bde5-62133636b033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\openvr">
+      <UniqueIdentifier>{f39ce12c-4021-4c70-a956-f040b30d2e47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\app\laserTracking\implementations\optimizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\implementations\pointCloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\implementations\pointCloudFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\implementations\poseTracker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\implementations\rpLidarSensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\implementations\sensors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\implementations\terminal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\implementations\test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\implementations\types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\implementations\contours.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\implementations\fileHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\implementations\lighthouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\main.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\alglib\statistics.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\alglib\alglibinternal.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\alglib\alglibmisc.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\alglib\ap.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\alglib\dataanalysis.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\alglib\diffequations.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\alglib\fasttransforms.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\alglib\integration.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\alglib\interpolation.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\alglib\linalg.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\alglib\optimization.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\alglib\solvers.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\alglib\specialfunctions.cpp">
+      <Filter>Source Files\alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\implementations\object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\openvr\strtools.cpp">
+      <Filter>Source Files\openvr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\openvr\lodepng.cpp">
+      <Filter>Source Files\openvr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\openvr\Matrices.cpp">
+      <Filter>Source Files\openvr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\app\laserTracking\openvr\pathtools.cpp">
+      <Filter>Source Files\openvr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\app\laserTracking\headers\lighthouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\app\laserTracking\headers\optimizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\app\laserTracking\headers\pointCloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\app\laserTracking\headers\pointCloudFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\app\laserTracking\headers\poseTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\app\laserTracking\headers\rpLidarSensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\app\laserTracking\headers\sensors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\app\laserTracking\headers\terminal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\app\laserTracking\headers\test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\app\laserTracking\headers\thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\app\laserTracking\headers\tracking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\app\laserTracking\headers\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\app\laserTracking\headers\contours.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\app\laserTracking\headers\fileHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\app\laserTracking\headers\object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

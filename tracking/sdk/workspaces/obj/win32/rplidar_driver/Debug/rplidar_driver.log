@@ -1,0 +1,49 @@
+﻿Der Buildvorgang wurde am 13.02.2019 11:38:50 gestartet.
+     1>Projekt "D:\RadiationLaser\rplidar_sdk\sdk\workspaces\vc10\rplidar_driver\rplidar_driver.vcxproj" auf Knoten "2", build Ziel(e).
+     1>PrepareForBuild:
+         Das Verzeichnis "D:\RadiationLaser\rplidar_sdk\sdk\workspaces\vc10\\..\..\output\win32\Debug\" wird erstellt.
+       InitializeBuildStatus:
+         "D:\RadiationLaser\rplidar_sdk\sdk\workspaces\vc10\\..\..\obj\win32\rplidar_driver\Debug\rplidar_driver.unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\sdk\include /I..\..\..\sdk\src /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\RadiationLaser\rplidar_sdk\sdk\workspaces\vc10\\..\..\obj\win32\rplidar_driver\Debug\\" /Fd"D:\RadiationLaser\rplidar_sdk\sdk\workspaces\vc10\\..\..\obj\win32\rplidar_driver\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\sdk\src\arch\win32\net_serial.cpp ..\..\..\sdk\src\arch\win32\net_socket.cpp ..\..\..\sdk\src\arch\win32\timer.cpp ..\..\..\sdk\src\hal\thread.cpp ..\..\..\sdk\src\rplidar_driver.cpp
+         rplidar_driver.cpp
+     1>d:\radiationlaser\rplidar_sdk\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+                 copy-ctor oder copy-assignment Operator kann nicht generiert werden, wenn UDT ein Array der Größe Null enthält.
+     1>d:\radiationlaser\rplidar_sdk\sdk\sdk\include\rplidar_cmd.h(244): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+                 copy-ctor oder copy-assignment Operator kann nicht generiert werden, wenn UDT ein Array der Größe Null enthält.
+         thread.cpp
+     1>d:\radiationlaser\rplidar_sdk\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+                 copy-ctor oder copy-assignment Operator kann nicht generiert werden, wenn UDT ein Array der Größe Null enthält.
+     1>d:\radiationlaser\rplidar_sdk\sdk\sdk\include\rplidar_cmd.h(244): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+                 copy-ctor oder copy-assignment Operator kann nicht generiert werden, wenn UDT ein Array der Größe Null enthält.
+         timer.cpp
+     1>d:\radiationlaser\rplidar_sdk\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+                 copy-ctor oder copy-assignment Operator kann nicht generiert werden, wenn UDT ein Array der Größe Null enthält.
+     1>d:\radiationlaser\rplidar_sdk\sdk\sdk\include\rplidar_cmd.h(244): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+                 copy-ctor oder copy-assignment Operator kann nicht generiert werden, wenn UDT ein Array der Größe Null enthält.
+         net_socket.cpp
+     1>d:\radiationlaser\rplidar_sdk\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+                 copy-ctor oder copy-assignment Operator kann nicht generiert werden, wenn UDT ein Array der Größe Null enthält.
+     1>d:\radiationlaser\rplidar_sdk\sdk\sdk\include\rplidar_cmd.h(244): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+                 copy-ctor oder copy-assignment Operator kann nicht generiert werden, wenn UDT ein Array der Größe Null enthält.
+         net_serial.cpp
+     1>d:\radiationlaser\rplidar_sdk\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+                 copy-ctor oder copy-assignment Operator kann nicht generiert werden, wenn UDT ein Array der Größe Null enthält.
+     1>d:\radiationlaser\rplidar_sdk\sdk\sdk\include\rplidar_cmd.h(244): warning C4200: Nicht dem Standard entsprechende Erweiterung: Null-Array in Struktur/Union
+                 copy-ctor oder copy-assignment Operator kann nicht generiert werden, wenn UDT ein Array der Größe Null enthält.
+         Code wird generiert...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\RadiationLaser\rplidar_sdk\sdk\workspaces\vc10\\..\..\output\win32\Debug\rplidar_driver.lib" /NOLOGO D:\RadiationLaser\rplidar_sdk\sdk\workspaces\vc10\\..\..\obj\win32\rplidar_driver\Debug\net_serial.obj
+         D:\RadiationLaser\rplidar_sdk\sdk\workspaces\vc10\\..\..\obj\win32\rplidar_driver\Debug\net_socket.obj
+         D:\RadiationLaser\rplidar_sdk\sdk\workspaces\vc10\\..\..\obj\win32\rplidar_driver\Debug\timer.obj
+         D:\RadiationLaser\rplidar_sdk\sdk\workspaces\vc10\\..\..\obj\win32\rplidar_driver\Debug\thread.obj
+         D:\RadiationLaser\rplidar_sdk\sdk\workspaces\vc10\\..\..\obj\win32\rplidar_driver\Debug\rplidar_driver.obj
+         rplidar_driver.vcxproj -> D:\RadiationLaser\rplidar_sdk\sdk\workspaces\vc10\\..\..\output\win32\Debug\rplidar_driver.lib
+       FinalizeBuildStatus:
+         Die Datei "D:\RadiationLaser\rplidar_sdk\sdk\workspaces\vc10\\..\..\obj\win32\rplidar_driver\Debug\rplidar_driver.unsuccessfulbuild" wird gelöscht.
+         Aktualisieren des Timestamps von "D:\RadiationLaser\rplidar_sdk\sdk\workspaces\vc10\\..\..\obj\win32\rplidar_driver\Debug\rplidar_driver.lastbuildstate".
+     1>Die Erstellung des Projekts "D:\RadiationLaser\rplidar_sdk\sdk\workspaces\vc10\rplidar_driver\rplidar_driver.vcxproj" ist abgeschlossen, build Ziel(e).
+
+Das Erstellen war erfolgreich.
+
+Verstrichene Zeit 00:00:05.29

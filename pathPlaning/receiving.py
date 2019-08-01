@@ -1,0 +1,15 @@
+import socket
+
+UDP_IP = "192.168.1.104"
+UDP_PORT = 5005
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) # UDP
+
+
+def openConnection():
+	sock.bind((UDP_IP, UDP_PORT))
+
+
+def getMSG():
+	data, addr = sock.recvfrom(1024) # buffer size is 1024 bytes
+ 	#print "received message:", data
+	return data.decode("utf-8")

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "laserTracking", "laserTracking\laserTracking.vcxproj", "{6AE94E9D-442B-493D-ADE7-78E64E8695CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AE94E9D-442B-493D-ADE7-78E64E8695CB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6AE94E9D-442B-493D-ADE7-78E64E8695CB}.Debug|Win32.Build.0 = Debug|Win32
+		{6AE94E9D-442B-493D-ADE7-78E64E8695CB}.Release|Win32.ActiveCfg = Release|Win32
+		{6AE94E9D-442B-493D-ADE7-78E64E8695CB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50A26B6B-ACAB-464B-9144-A6E3AF439F4A}
+	EndGlobalSection
+EndGlobal
